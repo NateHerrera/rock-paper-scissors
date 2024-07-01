@@ -1,5 +1,5 @@
 function getComputerChoice(){
-    
+
     let max = 3;
     let randomValue = Math.floor(Math.random() * max);
     
@@ -16,3 +16,29 @@ function getComputerChoice(){
 }
 
 console.log(getComputerChoice());
+
+
+function getHumanChoice(){
+
+    let choice = prompt("Please enter either rock, paper, or scissors.", "");
+
+   /* if (choice == "rock"){
+        console.log("You chose rock");
+
+    }
+    else if (choice == "paper"){
+        console.log("You chose paper");
+
+    }
+    else if (choice == "scissors")
+    {
+        console.log("You chose scissors")
+
+    } */
+
+    return choice;
+
+}
+ 
+console.log(getHumanChoice());
+
